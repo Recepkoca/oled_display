@@ -18,16 +18,21 @@ Displays flight mode, arming state, battery status, GPS, and link info.
 2. Ensure `CMakeLists.txt` and `module.yaml` are included in your board config.
 3. Build as usual: make px4_fmu-v6c_default
 
-## Usage (NSH / MAVLink Console
--Start the driver (bus 2, address 0x3C): sh1106_notify start -b 2 -a 0x3c
--Other commands: 
--sh1106_notify status 
--sh1106_notify stop
--Example screen:
---POSCTL | DISARM
---Batt: 11.98V 73%
---GPS: 3D sats:12
---Link: RSSI:81 tx%:92 err:0
+## Usage (NSH / MAVLink Console)
+
+- Start the driver (bus 2, address 0x3C):  
+  `sh1106_notify start -b 2 -a 0x3c`
+
+- Other commands:  
+  - `sh1106_notify status`  
+  - `sh1106_notify stop`
+
+- Example screen:  
+  - `POSCTL | DISARM`  
+  - `Batt: 11.98V 73%`  
+  - `GPS: 3D sats:12`  
+  - `Link: RSSI:81 tx%:92 err:0`
+
 
 
 ## Repository Layout
