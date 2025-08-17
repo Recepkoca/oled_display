@@ -36,9 +36,10 @@ Displays flight mode, arming state, battery status, GPS, and link info.
 
 
 ## Repository Layout
-CMakeLists.txt
-Kconfig
-module.yaml
-font6x8.cpp / font6x8.hpp
-sh1106.cpp / sh1106.hpp
-sh1106_notify.cpp
+
+- CMakeLists.txt
+- Kconfig
+- module.yaml
+- font6x8.cpp / font6x8.hpp
+- sh1106.cpp / sh1106.hpp
+- sh1106_notify.cpp
